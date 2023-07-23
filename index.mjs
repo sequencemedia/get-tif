@@ -37,14 +37,27 @@ async function disconnect () {
   ) await mongoose.disconnect()
 }
 
+function toAbsolutePath ({
+  directory,
+  filePath
+}) {
+  return path.join(directory, filePath)
+}
+
+function toMessage ({ message }) {
+  return { message }
+}
+
 const log = debug('@sequencemedia/get-tif/server')
 const info = debug('@sequencemedia/get-tif/server:info')
 const warn = debug('@sequencemedia/get-tif/server:warn')
 const error = debug('@sequencemedia/get-tif/server:error')
+
 const app = express()
 const server = http.createServer(app)
-
 const tifModel = getTifModel()
+
+const ID = /[0-9a-fA-F]{24}/
 
 const DISCONNECTED = 0
 const CONNECTED = 1
@@ -165,19 +178,6 @@ process
     process.exit(1)
   })
 
-const ID = /[0-9a-fA-F]{24}/
-
-function toAbsolutePath ({
-  directory,
-  filePath
-}) {
-  return path.join(directory, filePath)
-}
-
-function toMessage ({ message }) {
-  return { message }
-}
-
 {
   const schema = Joi.object().keys({
     id: (
@@ -234,7 +234,7 @@ function toMessage ({ message }) {
           await sharp(toAbsolutePath(model)).toFile(filePath)
         }
 
-        return res.download(filePath, fileName, { root: '.' })
+        return res.sendFile(filePath, { root: '.' })
       }
 
       res.status(404).end()
@@ -281,7 +281,7 @@ function toMessage ({ message }) {
   app
     .get('/:id', validate, async ({ params: { id } }, res) => {
       const model = await tifModel.findOne({ _id: id, removed: { $ne: true } })
-      if (model) return res.download(toAbsolutePath(model), id + '.tif')
+      if (model) return res.sendFile(toAbsolutePath(model))
 
       res.status(404).end()
     })
