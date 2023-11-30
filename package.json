@@ -24,12 +24,12 @@
     "joi": "^17.11.0",
     "mongoose": "^8.0.2",
     "nconf": "^0.12.1",
-    "sharp": "^0.32.6"
+    "sharp": "^0.33.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.3",
+    "@babel/core": "^7.23.5",
     "@babel/eslint-parser": "^7.23.3",
-    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-env": "^7.23.5",
     "@sequencemedia/hooks": "^1.0.464",
     "eslint": "^8.54.0",
     "eslint-config-standard": "^17.1.0"
