@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "debug": "^4.3.4",
-    "express": "^4.18.2",
+    "express": "^4.18.3",
     "joi": "^17.12.2",
     "mongoose": "^8.2.0",
     "nconf": "^0.12.1",
@@ -30,7 +30,7 @@
     "@babel/core": "^7.24.0",
     "@babel/eslint-parser": "^7.23.10",
     "@babel/preset-env": "^7.24.0",
-    "@sequencemedia/hooks": "^1.0.482",
+    "@sequencemedia/hooks": "^1.0.483",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0"
   },
