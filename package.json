@@ -21,15 +21,15 @@
   "dependencies": {
     "debug": "^4.3.4",
     "express": "^5.0.0-beta.2",
-    "joi": "^17.12.2",
-    "mongoose": "^8.2.4",
+    "joi": "^17.12.3",
+    "mongoose": "^8.3.0",
     "nconf": "^0.12.1",
     "sharp": "^0.33.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.3",
+    "@babel/core": "^7.24.4",
     "@babel/eslint-parser": "^7.24.1",
-    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-env": "^7.24.4",
     "@sequencemedia/hooks": "^1.0.486",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0"
