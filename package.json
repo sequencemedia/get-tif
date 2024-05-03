@@ -21,7 +21,7 @@
   "dependencies": {
     "debug": "^4.3.4",
     "express": "^5.0.0-beta.2",
-    "joi": "^17.13.0",
+    "joi": "^17.13.1",
     "mongoose": "^8.3.3",
     "nconf": "^0.12.1",
     "sharp": "^0.33.3"
