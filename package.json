@@ -24,7 +24,7 @@
     "joi": "^17.13.1",
     "mongoose": "^8.3.5",
     "nconf": "^0.12.1",
-    "sharp": "^0.33.3"
+    "sharp": "^0.33.4"
   },
   "devDependencies": {
     "@babel/core": "^7.24.5",
