@@ -14,9 +14,9 @@
     "url": "git@github.com:sequencemedia/get-tif.git"
   },
   "scripts": {
-    "start": "DEBUG=@sequencemedia/get-tif* node .",
     "lint": "eslint . --ext .mjs,.cjs,.mts,.cts",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "start": "DEBUG=@sequencemedia/get-tif* node ."
   },
   "dependencies": {
     "debug": "^4.3.4",
@@ -30,14 +30,14 @@
     "@babel/core": "^7.24.6",
     "@babel/eslint-parser": "^7.24.6",
     "@babel/preset-env": "^7.24.6",
-    "@sequencemedia/hooks": "^1.0.491",
+    "@sequencemedia/hooks": "^1.0.492",
     "eslint": "8.57.0",
     "eslint-config-standard": "^17.1.0"
   },
   "imports": {
-    "#config/*": "./config/*.mjs",
     "#config": "./config/index.mjs",
-    "#models/*": "./models/*.mjs",
-    "#model-schemas/*": "./model-schemas/*.mjs"
+    "#config/*": "./config/*.mjs",
+    "#model-schemas/*": "./model-schemas/*.mjs",
+    "#models/*": "./models/*.mjs"
   }
 }
