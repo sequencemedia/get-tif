@@ -6,7 +6,7 @@
   "author": {
     "name": "Jonathan Perry for Sequence Media Limited",
     "email": "sequencemedia@sequencemedia.net",
-    "url": "http://sequencemedia.net"
+    "url": "https://sequencemedia.net"
   },
   "license": "ISC",
   "repository": {
@@ -22,7 +22,7 @@
     "debug": "^4.3.5",
     "express": "^5.0.0-beta.2",
     "joi": "^17.13.3",
-    "mongoose": "^8.4.4",
+    "mongoose": "^8.4.5",
     "nconf": "^0.12.1",
     "sharp": "^0.33.4"
   },
@@ -30,7 +30,7 @@
     "@babel/core": "^7.24.7",
     "@babel/eslint-parser": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
-    "@sequencemedia/hooks": "^1.0.495",
+    "@sequencemedia/hooks": "^1.0.496",
     "eslint": "8.57.0",
     "eslint-config-standard": "^17.1.0"
   },
