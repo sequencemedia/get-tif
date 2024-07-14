@@ -22,7 +22,7 @@
     "debug": "^4.3.5",
     "express": "^5.0.0-beta.3",
     "joi": "^17.13.3",
-    "mongoose": "^8.5.0",
+    "mongoose": "^8.5.1",
     "nconf": "^0.12.1",
     "sharp": "^0.33.4"
   },
@@ -30,8 +30,8 @@
     "@babel/core": "^7.24.8",
     "@babel/preset-env": "^7.24.8",
     "@sequencemedia/eslint-config-standard": "^0.0.12",
-    "@sequencemedia/hooks": "^1.0.501",
-    "eslint": "^9.6.0",
+    "@sequencemedia/hooks": "^1.0.502",
+    "eslint": "^9.7.0",
     "globals": "^15.8.0"
   },
   "imports": {
