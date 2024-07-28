@@ -19,7 +19,7 @@
     "start": "DEBUG=@sequencemedia/get-tif* node ."
   },
   "dependencies": {
-    "debug": "^4.3.5",
+    "debug": "^4.3.6",
     "express": "^5.0.0-beta.3",
     "joi": "^17.13.3",
     "mongoose": "^8.5.1",
