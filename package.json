@@ -27,10 +27,10 @@
     "sharp": "^0.33.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.9",
-    "@babel/preset-env": "^7.25.0",
-    "@sequencemedia/eslint-config-standard": "^0.0.17",
-    "@sequencemedia/hooks": "^1.0.507",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.2",
+    "@sequencemedia/eslint-config-standard": "^0.0.19",
+    "@sequencemedia/hooks": "^1.0.509",
     "eslint": "^9.8.0",
     "globals": "^15.8.0"
   },
