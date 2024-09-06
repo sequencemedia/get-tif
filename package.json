@@ -19,7 +19,7 @@
     "start": "DEBUG=@sequencemedia/get-tif* node ."
   },
   "dependencies": {
-    "debug": "^4.3.6",
+    "debug": "^4.3.7",
     "express": "^5.0.0-beta.3",
     "joi": "^17.13.3",
     "mongoose": "^8.6.1",
@@ -29,8 +29,8 @@
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
-    "@sequencemedia/eslint-config-standard": "^0.0.54",
-    "@sequencemedia/hooks": "^1.0.545",
+    "@sequencemedia/eslint-config-standard": "^0.0.55",
+    "@sequencemedia/hooks": "^1.0.546",
     "eslint": "^9.9.1",
     "globals": "^15.9.0"
   },
