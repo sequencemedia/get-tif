@@ -27,11 +27,11 @@
     "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.7",
-    "@babel/preset-env": "^7.25.7",
-    "@sequencemedia/eslint-config-standard": "^0.0.73",
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "@sequencemedia/eslint-config-standard": "^0.0.75",
     "eslint": "^9.12.0",
-    "globals": "^15.10.0"
+    "globals": "^15.11.0"
   },
   "imports": {
     "#config": "./config/index.mjs",
