@@ -22,7 +22,7 @@
     "debug": "^4.3.7",
     "express": "^4.21.1",
     "joi": "^17.13.3",
-    "mongoose": "^8.7.1",
+    "mongoose": "^8.7.2",
     "nconf": "^0.12.1",
     "sharp": "^0.33.5"
   },
@@ -30,7 +30,7 @@
     "@babel/core": "^7.25.8",
     "@babel/preset-env": "^7.25.8",
     "@sequencemedia/eslint-config-standard": "^0.0.75",
-    "eslint": "^9.12.0",
+    "eslint": "^9.13.0",
     "globals": "^15.11.0"
   },
   "imports": {
