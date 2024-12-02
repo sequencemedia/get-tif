@@ -29,9 +29,9 @@
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
-    "@sequencemedia/eslint-config-standard": "^0.0.87",
+    "@sequencemedia/eslint-config-standard": "^0.0.88",
     "eslint": "^9.16.0",
-    "globals": "^15.12.0"
+    "globals": "^15.13.0"
   },
   "imports": {
     "#config": "./config/index.mjs",
