@@ -22,16 +22,16 @@
     "debug": "^4.4.0",
     "express": "^4.21.2",
     "joi": "^17.13.3",
-    "mongoose": "^8.9.0",
+    "mongoose": "^8.9.2",
     "nconf": "^0.12.1",
     "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
-    "@sequencemedia/eslint-config-standard": "^0.2.8",
+    "@sequencemedia/eslint-config-standard": "^0.2.9",
     "eslint": "^9.17.0",
-    "globals": "^15.13.0"
+    "globals": "^15.14.0"
   },
   "imports": {
     "#config": "./config/index.mjs",
