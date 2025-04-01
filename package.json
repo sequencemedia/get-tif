@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "debug": "^4.4.0",
-    "express": "^4.21.2",
+    "express": "^5.1.0",
     "joi": "^17.13.3",
     "mongoose": "^8.13.1",
     "nconf": "^0.12.1",
