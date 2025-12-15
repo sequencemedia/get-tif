@@ -20,17 +20,17 @@
   },
   "dependencies": {
     "debug": "^4.4.3",
-    "express": "^5.1.0",
-    "joi": "^18.0.1",
-    "mongoose": "^8.19.3",
+    "express": "^5.2.1",
+    "joi": "^18.0.2",
+    "mongoose": "^9.0.1",
     "nconf": "^0.13.0",
     "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@babel/core": "^7.28.5",
     "@babel/preset-env": "^7.28.5",
-    "@sequencemedia/eslint-config-standard": "^0.2.105",
-    "eslint": "^9.39.1",
+    "@sequencemedia/eslint-config-standard": "^0.2.107",
+    "eslint": "^9.39.2",
     "globals": "^16.5.0"
   },
   "imports": {
