@@ -31,7 +31,7 @@
     "@babel/preset-env": "^7.29.2",
     "@sequencemedia/eslint-config-standard": "^0.2.107",
     "eslint": "^10.2.0",
-    "globals": "^17.4.0"
+    "globals": "^17.5.0"
   },
   "imports": {
     "#config": "./config/index.mjs",
