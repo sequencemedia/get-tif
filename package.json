@@ -27,9 +27,9 @@
     "sharp": "^0.35.5"
   },
   "devDependencies": {
-    "@babel/core": "^8.0.6",
-    "@babel/preset-env": "^8.0.6",
-    "@sequencemedia/eslint-config-standard": "^0.2.125",
+    "@babel/core": "7.29.7",
+    "@babel/preset-env": "7.29.7",
+    "@sequencemedia/eslint-config-standard": "^0.2.127",
     "eslint": "9.38.0",
     "globals": "^17.12.0"
   },
