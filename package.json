@@ -22,14 +22,14 @@
     "debug": "^4.4.3",
     "express": "^5.3.0",
     "joi": "^18.3.2",
-    "mongoose": "^9.13.0",
+    "mongoose": "^9.13.1",
     "nconf": "^0.13.0",
     "sharp": "^0.35.5"
   },
   "devDependencies": {
     "@babel/core": "7.29.7",
     "@babel/preset-env": "7.29.7",
-    "@sequencemedia/eslint-config-standard": "0.4.3",
+    "@sequencemedia/eslint-config-standard": "0.4.4",
     "eslint": "10.15.0",
     "globals": "^17.14.0"
   },
